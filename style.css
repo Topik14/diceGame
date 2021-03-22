@@ -169,3 +169,70 @@ main {
 .hidden {
   display: none;
 }
+
+@media (max-width: 600px){
+  main{
+    flex-direction: column;
+    height: 65rem;
+  }
+
+  .current-score {
+  font-size: 2rem;
+  }
+
+  .score {
+  font-size: 4rem;
+  margin: auto;
+  
+  }
+
+  .player {
+  flex: 80%;
+  padding: 7rem 0rem 6rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.75s;
+  text-align: center;
+  }
+
+  
+
+  .btn{
+    left: 50%;
+  }
+
+  .btn--new {
+    top: 1.5rem;
+  }
+  .btn--roll {
+    top: 28rem;
+    left: 70%;
+  }
+  .btn--hold {
+    top: 34rem;
+    left: 70%;
+    
+  }
+
+  .dice {
+  position: absolute;
+  left: 20%;
+  top: 28rem;
+  }
+
+  .current{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .current-label{
+    margin-bottom: 0;
+  }
+
+  .name {
+    margin-bottom: 0;
+  }
+}
